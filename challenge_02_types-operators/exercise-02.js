@@ -5,9 +5,9 @@
     
     Repeat the above steps but try using a const variable. Comment this new part of code and explain what is happening.
 */
-let greeting;           
-greeting = "Moo!";     
-console.log(greeting); 
+let greeting;
+greeting = "Moo!";
+console.log(greeting);
 
 // const greetingConst; // This line will result in an error since you must assign a value to a const variable when declaring it.
 // greetingConst = "Moo!"; // If you uncomment this line, it will also result in an error since you can't reassign a value to a const variable.

@@ -9,7 +9,7 @@
       Log 'name' value.
 
 */
-let name = "YourName";  
+let name = "YourName";
 
 function updateValue(value) {
   name = value;
