@@ -9,3 +9,17 @@
       Log 'name' value.
 
 */
+let name = "YourName";  
+
+function updateValue(value) {
+  name = value;
+}
+
+updateValue("FavoriteMusicianName");
+console.log("Name after setting it to a musician:", name);
+
+updateValue(true);
+console.log("Name after setting it to 'true':", name);
+
+updateValue(28);
+console.log("Name after setting it to '28':", name);
